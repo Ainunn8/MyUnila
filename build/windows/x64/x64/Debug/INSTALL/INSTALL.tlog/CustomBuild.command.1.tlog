@@ -1,0 +1,10 @@
+^C:\MAGANG\MYUNILA\BUILD\WINDOWS\X64\CMAKEFILES\106014F82A8DB3AD15F311FCA36BDFFF\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

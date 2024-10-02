@@ -1,0 +1,1 @@
+ C:\\magang\\MyUnila\\.dart_tool\\flutter_build\\c412bf6e4322f480e131ab63cc641a07\\native_assets.yaml: 

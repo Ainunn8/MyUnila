@@ -1,0 +1,10 @@
+C:/magang/MyUnila/build/windows/x64/runner/Debug/data/icudtl.dat
+C:/magang/MyUnila/build/windows/x64/runner/Debug/flutter_windows.dll
+C:/magang/MyUnila/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin
+C:/magang/MyUnila/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.json
+C:/magang/MyUnila/build/windows/x64/runner/Debug/data/flutter_assets/FontManifest.json
+C:/magang/MyUnila/build/windows/x64/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+C:/magang/MyUnila/build/windows/x64/runner/Debug/data/flutter_assets/kernel_blob.bin
+C:/magang/MyUnila/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES.Z
+C:/magang/MyUnila/build/windows/x64/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+C:/magang/MyUnila/build/windows/x64/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag
