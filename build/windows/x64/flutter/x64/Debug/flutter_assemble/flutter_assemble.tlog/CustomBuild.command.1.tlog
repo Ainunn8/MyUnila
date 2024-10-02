@@ -1,0 +1,28 @@
+^C:\MAGANG\MYUNILA\BUILD\WINDOWS\X64\CMAKEFILES\635BB89504B2702FF6B5F9B73738DD8E\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\magang\MyUnila FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\magang\MyUnila\windows\flutter\ephemeral PROJECT_DIR=C:\magang\MyUnila FLUTTER_TARGET=C:\magang\MyUnila\lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\magang\MyUnila\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAGANG\MYUNILA\BUILD\WINDOWS\X64\CMAKEFILES\4CEDA06E9949CD4273DFBA232EF5A7FF\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAGANG\MYUNILA\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/magang/MyUnila/windows -BC:/magang/MyUnila/build/windows/x64 --check-stamp-file C:/magang/MyUnila/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
