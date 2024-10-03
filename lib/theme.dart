@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 //colors
 Color white = const Color.fromARGB(255, 255, 255, 255);
-Color whitegrey = const Color(0xFFdbdade);
+Color whitegrey = const Color.fromARGB(255, 242, 242, 243);
 Color grey = const Color(0xFF5d596c);
 Color bluedark = const Color(0xFF1da1f2);
 Color bluelight = const Color(0xFF99ecf6);
