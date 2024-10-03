@@ -11,7 +11,7 @@ void main() {
 
     expect(find.text('Prof. Dr. Ir. Lusmeilia Afriani. D. E. A., IPM., ASEAN Eng.'), findsOneWidget);
 
-    expect(find.text('UNGUL'), findsOneWidget);
+    expect(find.text('UNGGUL'), findsOneWidget);
     expect(find.text('AKTIF'), findsOneWidget);
 
     expect(find.text('001026'), findsOneWidget);
