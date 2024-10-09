@@ -5,7 +5,10 @@ import 'package:myunila/homepage.dart';
 void main() {
   testWidgets('HomePage displays correct elements', (WidgetTester tester) async {
    
-    await tester.pumpWidget(MaterialApp(home: HomePage()));
+       void onThemeChanged(ThemeMode themeMode) {}
+
+    // Menyediakan widget yang diuji dengan melewatkan parameter onThemeChanged
+    await tester.pumpWidget(MaterialApp(home: HomePage(onThemeChanged: onThemeChanged)));
 
     expect(find.text('Universitas Lampung'), findsOneWidget);
 

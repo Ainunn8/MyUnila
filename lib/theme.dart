@@ -8,3 +8,4 @@ Color bluedark = const Color(0xFF1da1f2);
 Color bluelight = const Color(0xFF99ecf6);
 Color bluedark2 = const Color(0xFF0077b5);
 Color orange = const Color(0xFFff4500);
+Color bluegreen = const Color(0xFF00cfe8); 
