@@ -15,11 +15,15 @@ dependencies:
   http: ^1.2.2 # Updated HTTP package for API requests.
   shared_preferences: ^2.0.15 # For local storage needs.
   url_launcher: ^6.0.20 # To open URLs, such as for customization system.
+  google_maps_flutter: ^2.2.3
+  #  permission_handler: ^10.2.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0 # Lint rules to enforce clean code.
+
+
   
 flutter:
   uses-material-design: true
